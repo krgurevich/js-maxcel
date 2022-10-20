@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- reset.css is a courtesy of Columbia University Coding Bootcamp -->
+    <title>JS Challenge</title>
+</head>
+
+<body>
+    <header>
+        <section class="score-section">High Score</section>
+        <section class="countdown-section">Time:&nbsp;<span id="secondsLeft"></span>&nbsp;Seconds&nbsp;Remaining
+        </section>
+    </header>
+    <section class="main-container">
+        <section id="challenge" class="justify-center flex-column">
+            <h2 id="question"></h2>
+            <ul id="choices"></ul>
+            <h3 id="result"></h3>
+
+        </section>
+        <section id="final-result">
+            <h1>All Done!</h1>
+            <h2>Your final score is&nbsp;<span id="finalScore"></span></h2>
+            <form id="initial-form">
+                <label>Enter Initials:</label>
+                <input type="text" id="initial-input">
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </section>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

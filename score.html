@@ -8,19 +8,18 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <!-- reset.css is a courtesy of Columbia University Coding Bootcamp -->
-    <title>JS Maxcel</title>
+    <title>High Scores</title>
 </head>
 
 <body>
-
     <main>
         <section id="intro-page" class="flex-center flex-column">
-            <h1>JavaScript Challenge</h1>
-            <p class="sub-title">Test your JavaScript knowledge by answering the following code-related questions within
-                the time limit. Please note that each incorrect answer will penalize your score/time by ten seconds.
-            </p>
-            <a class="btn" href="challenge.html">Begin Quiz</a>
-            <a class="btn" href="score.html">High Scores</a>
+            <h1>High Scores</h1>
+            <form id="scores-list">
+                <input type="text" id="scores-input">
+                <button class="btn" type="submit">Go Back</button>
+                <button class="btn" type="submit">Clear High Scores</button>
+            </form>
         </section>
 
     </main>
