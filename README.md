@@ -37,6 +37,6 @@ GitHub Repository: https://github.com/krgurevich/js-maxcel
 ---
 
 ![website screenshot](./assets/images/screenshot-index.png)
-![website screenshot](./assets/images/screenshot-challenge.png.png)
-![website screenshot](./assets/images/screenshot-finalscore.png.png)
+![website screenshot](./assets/images/screenshot-challenge.png)
+![website screenshot](./assets/images/screenshot-finalscore.png)
 ![website screenshot](./assets/images/screenshot-highscore.png)
