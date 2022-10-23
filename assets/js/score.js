@@ -1,8 +1,12 @@
+// Rendering of All Scores
+
+// Declared Variables
 var scoresList = document.getElementById("scores-list");
 var allScores = localStorage.getItem("allScores");
 var clearScore = document.getElementById("clear");
 var backHome = document.getElementById("back");
 
+// This function stores and renders scores from highest to lowest
 if (allScores == null) {
     allScores = null;
 }
@@ -16,6 +20,7 @@ else {
         scoresList.appendChild(createElement);
     }
 }
+// On click, the first button returns to index.html and second button clears all scores
 backHome.addEventListener("click", function () {
     window.location.replace("./index.html")
 });
