@@ -107,10 +107,19 @@ header {
 
 .score-section {
     flex: 1;
-    font-size: 1.8rem;
-    text-align: left;
     padding: 20px;
 
+}
+
+.score-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.score-section a:hover {
+    color: var(--eucalyptus);
 }
 
 .countdown-section {
@@ -129,13 +138,13 @@ header {
     margin: 0 auto;
 }
 
-
 li {
     width: 70%;
     padding: 15px;
     background-color: var(--eucalyptus);
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 100;
     margin-bottom: 15px;
     border-radius: 7px;
 }
@@ -169,14 +178,11 @@ input {
     display: none;
 }
 
-#scores-input {
-    display: block;
-    font-size: 1.8rem;
-    padding: 1rem;
-    width: 500px;
-    border: 0.1rem solid var(--eucalyptus);
-    border-radius: 7px;
-    margin-top: 1.5rem;
+#scores-input li {
+    width: 100%;
     color: var(--eucalyptus);
     background-color: white;
+    border-bottom: 0.1rem solid var(--eucalyptus);
+    text-align: center;
+
 }

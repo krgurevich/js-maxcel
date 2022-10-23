@@ -19,28 +19,28 @@ var finalScore = 0;
 var questions = [
     {
         question: "Which of the following is used to return the DOM element with id in JavaScript?",
-        choices: ["window.getElementbyID(...)", "document.getElementbyId(...)", "addEventListener(...)", "None of the Above"],
-        answer: "document.getElementbyId(...)"
+        choices: ["a. window.getElementbyID(...)", "b. document.getElementbyId(...)", "c. addEventListener(...)", "d. None of the Above"],
+        answer: "b. document.getElementbyId(...)"
     },
     {
         question: "How to write an IF statement for executing a code if 'i' is NOT equal to 5?",
-        choices: ["if (i != 5)", "if i <> 5", "if i =! 5 then", "while i = 1 to 10"],
-        answer: "if (i != 5)"
+        choices: ["a. if (i != 5)", "b. if i <> 5", "c. if i =! 5 then", "d. while i = 1 to 10"],
+        answer: "a. if (i != 5)"
     },
     {
         question: "How to round the number 9.25 to the nearest integer",
-        choices: ["Math.rnd(9.25)", "round[9.25]", "Math.round(9.25)", "rnd(9.25)"],
-        answer: "Math.round(9.25)"
+        choices: ["a. Math.rnd(9.25)", "b. round[9.25]", "c. Math.round(9.25)", "d. rnd(9.25)"],
+        answer: "c. Math.round(9.25)"
     },
     {
         question: "Which statement cannot be used to declare a variable in JavaScript?",
-        choices: ["let", "var", "int", "const"],
-        answer: "int"
+        choices: ["a. let", "n. var", "c. int", "d. const"],
+        answer: "c. int"
     },
     {
         question: "Which operator is used to assign a value to a variable",
-        choices: ["*", "-", "%", "="],
-        answer: "="
+        choices: ["a. *", "b. -", "c. %", "d. ="],
+        answer: "d. ="
     },
 ]
 // This function renders questions in challenge html
